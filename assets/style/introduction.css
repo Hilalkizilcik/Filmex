@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body.the-witcher {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/dizi/The-witcher/the-witcher.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body.dmc {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/dizi/Dmc/devil-may-cry.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body.blade-runner {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/film/blade-runner/blade-runner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body.berserk {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/dizi/berserk/berserk5.webp);
+  background-size: cover;
+  background-position: center;
+}
+body.twd {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/dizi/twd/the-walking-dead.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body.twd {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/dizi/twd/the-walking-dead.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body.breaking-bad {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/dizi/Breaking-Bad/Breaking-bad.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body.joker {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/film/joker/joker.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body.prenses-mononoke {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/film/prenses-mononoke/princess-mononoke1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body.fast-and-furious {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/film/fast-and-furious/fnf3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 70px;
+  font-weight: bolder;
+}
+.navbar .logo img {
+  width: 180px;
+  height: auto;
+}
+.navbar .menu {
+  display: flex;
+  gap: 0px 40px;
+  font-size: 20px;
+  list-style-type: none;
+}
+.navbar .menu li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.navbar .menu li a:hover {
+  text-shadow: 0 0 15px #fff;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+.search img {
+  width: 30px;
+}
+.search img:hover {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+  border-radius: 25px;
+  text-align: center;
+}
+.btn:hover {
+  box-shadow: 0 0 15px #fff;
+  transition: all 1s;
+}
+
+.container {
+  padding-bottom: 20px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 100px;
+  margin: auto;
+}
+.content {
+  /* background-color: #00000025; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+}
+
+.content h1 {
+  font-size: 80px;
+  text-shadow: 0 0 15px #fff;
+}
+
+.content p {
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.container .content .trailers-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container .content .trailers-cards img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #fff;
+}
+
+.container .content .trailers-cards img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px #fff;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.container .play-btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+}
+
+.container .play-btn .watch-btn {
+  padding: 100px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+}
+
+.container .play-btn .watch-btn:hover {
+  box-shadow: 0 0 15px #fff;
+  transition: all 1s;
+}
+.container .play-btn img {
+  width: 100px;
+}
